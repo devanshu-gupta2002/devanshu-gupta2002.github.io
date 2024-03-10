@@ -64,28 +64,19 @@ a {
 .theme-title {
   font-weight: 600;
   font-size: 6rem;
-  line-height: 10%;
+  line-height: 100%;
   font-family: "martel";
-}
-
-.theme-title-white {
   text-shadow: 0 0 0 transparent; /* Initial state: no shadow */
   transition: text-shadow 0.3s ease-in-out; /* Add transition for smooth animation */
-  
-}
-
-.theme-title-white:hover {
-  text-shadow: 3px 3px 50px #ffffff80; /* Shadow on hover */
 }
 
 .theme-title-red {
   color: #ff2b06;
-  text-shadow: 0 0 0 transparent; /* Initial state: no shadow */
-  transition: text-shadow 0.3s ease-in-out; /* Add transition for smooth animation */
 }
 
 .theme-title-red:hover {
   text-shadow: 3px 3px 50px #ff0000a2; /* Shadow on hover */
+  transition: text-shadow 0.3s ease-in-out;
 }
 
 .theme-subtitle {
@@ -172,7 +163,9 @@ a {
 
   .landing-content {
     text-align: center;
-    top: 10vmax;
+    padding-left: 5px;
+    padding-right: 5px;
+    bottom: 10vmax;
     right: 0;
     bottom: 0;
     left: 0;
@@ -180,24 +173,39 @@ a {
   }
 
   .theme-title {
-    font-size: 8vmax;
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 100%;
+    font-family: "martel";
+    text-shadow: 0 0 0 transparent; /* Initial state: no shadow */
+    transition: text-shadow 0.3s ease-in-out; /* Add transition for smooth animation */
   }
+  
+  .theme-title-red {
+    color: #ff2b06;
+    text-shadow: 3px 3px 50px #ff0000a2;
+  }
+  
 
   .theme-subtitle {
     font-size: 3vmax;
   }
 
-  .theme-content {
-    padding-left: 4vmax;
-    padding-right: 4vmax;
-    font-size: 2vmax;
+  .theme-br {
+    display: none;
   }
 
-  .btn-ticket {
-    margin-top: 1rem;
-    font-size: 1.5vmax;
-    height: 4.5vmax;
-    line-height: 80%;
+  .theme-content {
+    padding-left: 3vmax;
+    padding-right: 3vmax;
+    padding-top: 10px ;
+    font-size: 1.7vmax;
+  }
+
+  .button-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -363,10 +371,4 @@ a {
 
 .button-56:hover {
   outline: 0;
-}
-
-@media (min-width: 768px) {
-  .button-56 {
-    padding: 0 40px;
-  }
 }
