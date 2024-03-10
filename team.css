@@ -14,15 +14,14 @@ body {
     overflow-x: hidden;
 }
 
-body>div {
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    background-image: url(assets/images/mandala.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-color: black;
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-image: url('assets/images/bg-2-blur.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* This keeps the background fixed while scrolling */
+  background-size: cover;
+  background-position: center center; /* Centers the background image */
 }
 
 section {
