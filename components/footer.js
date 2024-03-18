@@ -80,8 +80,8 @@ class Footer extends HTMLElement {
             <div class="footer-content">
                 <p>This independent TEDx event is operated under license from TED.</p></br>
                 <div class="primary-contacts">
-                    <a href="tel:+919983771664"><i class="fa-solid fa-phone fa-xl"></i>+91 99964 00755</a><br>
-                    <a href="mailto:tedxnitkkr23@gmail.com"><i class="fa-solid fa-envelope fa-xl"></i>tedxnitkkr24@gmail.com</a><br>
+                    <a href="tel:+919996400755"><i class="fa-solid fa-phone fa-xl"></i>+91 99964 00755</a><br>
+                    <a href="mailto:tedxnitkkr24@gmail.com"><i class="fa-solid fa-envelope fa-xl"></i>tedxnitkkr24@gmail.com</a><br>
                     <a href="https://goo.gl/maps/PEBp1YK4WPFyA8b68"><i class="fa-solid fa-location-dot fa-xl"></i> NIT Kurukshetra</a>
                 </div>
                 <div class="secondary-contacts">
