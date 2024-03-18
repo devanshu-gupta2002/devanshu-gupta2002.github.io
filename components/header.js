@@ -157,7 +157,7 @@ class Header extends HTMLElement {
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="menu">
-            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeAxQzyop6TeDiEvo3BiwAVWK9kJLmNSIgTzqEQHP2YH6fhzQ/viewform" target="_blank" style="color:#ff2b06;font-weight:bold">Register</a></li>
+            <li><a href="https://forms.gle/MC5WmwccP5SCzYTu5" target="_blank" style="color:#ff2b06;font-weight:bold">Register</a></li>
                 <li><a href="./#about">About</a></li>
                 <li><a href="./#speakers">Speakers</a></li>
                 <li><a href="/team.html">Team</a></li>
