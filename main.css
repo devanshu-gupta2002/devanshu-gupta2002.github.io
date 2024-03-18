@@ -307,7 +307,7 @@ a {
 .speaker-prof {
     width: 11rem;
     height: 11rem;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     border-radius: 100%;
     margin: 0 auto;
     margin-bottom: 2vh;
